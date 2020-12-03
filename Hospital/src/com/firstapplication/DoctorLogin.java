@@ -57,7 +57,9 @@ public class DoctorLogin extends HttpServlet {
 		{
 			session.setAttribute("setmail",mailid);
 			session.setAttribute("setpwd", password);
+			session.setAttribute("name",set.getString("doctor_name"));
 			session.setAttribute("id",set.getInt("doctor_id"));
+			session.setAttribute("specialisation",set.getString("specialist"));
 		response.sendRedirect("success.html");
 		}
 		else

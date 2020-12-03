@@ -1,0 +1,49 @@
+<html>
+<body bgcolor="grey" align="center">
+<h2>Enter your Appointment Details</h2>
+<form action="./appointment.jsp">
+<table align="Center">
+<tr>
+<td>Name:</td>
+<td><input type="text" name="name" placeholder="Enter name" ></td>
+</tr>
+<tr>
+<td>Mobile Number:</td>
+<td><input type="number" name="number" placeholder="Enter Mobile"></td>
+</tr>
+<tr>
+<td>Age:</td>
+<td><input type="number" name="age" placeholder="Enter age" ></td>
+</tr>
+<tr>
+<td>Gender</td>
+<td><input type="radio" name="gender" value="Male" >Male
+<input type="radio" name="gender" value="Female" >Female
+</td>
+</tr>
+<tr>
+<td>Specialist:</td>
+<td><select name="specialist">
+<option value="ENT" >ENT</option>
+<option value="Cardiologist" >Cardiologist</option>
+<option value="Dentist" >Dentist</option>
+</select>
+</td>
+</tr>
+<tr>
+<td>Date</td>
+<td><input type="date" name="date" ></td>
+</tr>
+<tr>
+<td>Time</td>
+<td><input type="time" name="time" ></td>
+</tr>
+<tr>
+<td>Address</td>
+<td><input type="text" name="address" value="Enter Address" ></td>
+</tr>
+</table>
+<input type="submit" value="Appoint">
+</form>
+</body>
+</html>
